@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.correios.cep.correioscep.services.CorreiosService;
 
 @RestController
+@RequestMapping(value = "/zipcode")
 public class CorreiosController {
     @Autowired
     private CorreiosService correiosService;
