@@ -1,0 +1,12 @@
+version: '3.4.4'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: correios
+      POSTGRES_PASSWORD: correios_api
+    ports:
+      - "5432:5432"
+

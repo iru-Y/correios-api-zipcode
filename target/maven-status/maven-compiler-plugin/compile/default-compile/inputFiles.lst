@@ -1,0 +1,12 @@
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/repositories/AddressRepository.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/CorreiosCepApplication.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/controllers/CorreiosController.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/controllers/StatusController.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/models/enums/Status.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/repositories/SetupRepository.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/repositories/AddressStatusRepository.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/models/AddressStatus.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/models/Address.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/exceptions/NotReadyException.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/exceptions/NoContentException.java
+/home/iruy/Programacao/correios-cep/src/main/java/com/correios/cep/correioscep/services/CorreiosService.java

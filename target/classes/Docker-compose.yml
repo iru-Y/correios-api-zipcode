@@ -1,0 +1,27 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0.32
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'correios_api'
+      MYSQL_DATABASE: 'correios'
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - '3306:3306'
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    ports:
+      - '8080:8080'
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/correios?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 'correios_api'
+volumes:
+  db_data:
